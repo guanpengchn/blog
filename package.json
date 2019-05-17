@@ -1,0 +1,30 @@
+{
+  "name": "awesome-pronunciation",
+  "version": "1.0.0",
+  "description": "- Computer word pronunciation is always ignored, so this repository exists. - There are many computer technology related words here. People almost read every word wrong. - Click on the speaker to listen to the pronunciation.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guanpengchn/nice-notes.git"
+  },
+  "author": "Aaron Guan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guanpengchn/nice-notes/issues"
+  },
+  "homepage": "https://github.com/guanpengchn/nice-notes#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  },
+  "dependencies": {
+    "ali-oss": "^6.0.2"
+  }
+}
