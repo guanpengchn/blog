@@ -1,7 +1,17 @@
-const mapArr = [
+const algorithmArr = [
   '',
-  'record.md',
-  '884.md'
+  'record',
+  '884'
+]
+
+const javaArr = [
+  '',
+]
+
+
+const openArr = [
+  '',
+  'mdnice',
 ]
 
 module.exports = {
@@ -36,7 +46,21 @@ module.exports = {
             {
               title: '算法题',
               collapsable: false,
-              children: mapArr
+              children: algorithmArr
+            }
+          ],
+          '/java/': [
+            {
+              title: 'Java',
+              collapsable: false,
+              children: javaArr
+            }
+          ],
+          '/open/': [
+            {
+              title: '开源分享与项目',
+              collapsable: false,
+              children: openArr
             }
           ]
         }

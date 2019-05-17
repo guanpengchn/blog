@@ -25,6 +25,7 @@
     "vuepress": "^0.14.11"
   },
   "dependencies": {
-    "ali-oss": "^6.0.2"
+    "ali-oss": "^6.0.2",
+    "gitalk": "^1.5.0"
   }
 }
