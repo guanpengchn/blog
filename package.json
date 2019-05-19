@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
+    "build": "vuepress build docs",
     "deploy": "./deploy.sh"
   },
   "repository": {
@@ -25,7 +25,6 @@
     "vuepress": "^0.14.11"
   },
   "dependencies": {
-    "ali-oss": "^6.0.2",
-    "gitalk": "^1.5.0"
+    "ali-oss": "^6.0.2"
   }
 }

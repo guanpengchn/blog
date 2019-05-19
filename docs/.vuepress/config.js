@@ -1,7 +1,9 @@
 const algorithmArr = [
   '',
   'record',
-  '884'
+  '112',
+  '216',
+  '884',
 ]
 
 const javaArr = [
@@ -12,6 +14,8 @@ const javaArr = [
 const openArr = [
   '',
   'mdnice',
+  'muma',
+  'futureHistory'
 ]
 
 module.exports = {
