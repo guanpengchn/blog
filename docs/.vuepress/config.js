@@ -4,6 +4,8 @@ const algorithmArr = [
   '112',
   '216',
   '884',
+  '938',
+  '96'
 ]
 
 const javaArr = [
