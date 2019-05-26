@@ -1,3 +1,5 @@
+# 人类真的幸福么？
+
 《人类简史》是最近读的一本很改变我观念的书籍，由尤瓦尔·赫拉利编写。从最开始人类的出现，再到认知革命、农业革命和工业革命，其中一个问题随着这条主线不断被提及，**人类真的更幸福了么？**
 
 ![](https://i.loli.net/2019/05/25/5ce8bb7ec4f1913300.jpg)
@@ -108,7 +110,7 @@
 
 > 温馨提示，阅读时可能会变成一只猿类，请小心。
 
-<span style="display:block;text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群<span>
-<span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong><span>
+<span style="display:block;text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群</span>
+<span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
 ![](https://i.loli.net/2019/05/20/5ce23b33cc01d73486.gif)

@@ -244,8 +244,8 @@ balabala，总之hr还是相对和蔼可亲的
 4. 医疗你们这边在做什么
 
 <br/>
-<p style="text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群<p>
-<p style="text-align:center;">今天的图好看么？欢迎点击<strong>在看</strong>和<strong>转发</strong><p>
-<p style="text-align:center;">下一篇分享秋招经历，敬请期待<p>
+<p style="text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群</p>
+<p style="text-align:center;">今天的图好看么？欢迎点击<strong>在看</strong>和<strong>转发</strong></p>
+<p style="text-align:center;">下一篇分享秋招经历，敬请期待</p>
 
 ![](https://i.loli.net/2019/05/20/5ce23b33cc01d73486.gif)

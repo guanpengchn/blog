@@ -1,11 +1,15 @@
 const algorithmArr = [
   '',
   'record',
+  '96',
+  '101',
   '112',
+  '162',
   '216',
+  '674',
+  '704',
   '884',
-  '938',
-  '96'
+  '938'
 ]
 
 const javaArr = [
@@ -17,7 +21,10 @@ const openArr = [
   '',
   'mdnice',
   'muma',
-  'futureHistory'
+  'futureHistory',
+  'interviewSpring',
+  'interviewAutumn',
+  'peopleHistory'
 ]
 
 module.exports = {
@@ -35,6 +42,9 @@ module.exports = {
     docsRepo: 'guanpengchn/nice-notes',
     docsDir: 'docs',
     editLinks: true,
+    markdown: {
+      html: true
+    },
     locales: {
       '/': {
         lang: '简体中文',
@@ -50,7 +60,7 @@ module.exports = {
         sidebar: {
           '/algorithm/': [
             {
-              title: '算法题',
+              title: '画解算法',
               collapsable: false,
               children: algorithmArr
             }

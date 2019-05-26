@@ -1538,7 +1538,7 @@ int query(int a[], int x){
 - Http协议有哪些状态码，跨域是怎么实现的
 
 <br/>
-<span style="display:block;text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群<span>
-<span style="display:block;text-align:center;">今天的图好看么？欢迎点击<strong>在看</strong>和<strong>转发</strong><span>
+<span style="display:block;text-align:center;">后台回复「<strong>算法</strong>」，加入天天算法群</span>
+<span style="display:block;text-align:center;">今天的图好看么？欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
 ![](https://i.loli.net/2019/05/20/5ce23b33cc01d73486.gif)
