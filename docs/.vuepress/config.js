@@ -2,6 +2,8 @@ const algorithmArr = [
   '',
   'record',
   '1',
+  '16',
+  '24',
   '77',
   '96',
   '101',
