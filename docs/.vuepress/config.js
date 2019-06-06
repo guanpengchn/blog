@@ -39,8 +39,8 @@ const openArr = [
 ]
 
 module.exports = {
-  title: 'Nice Notes',
-  description: 'how to pronunciation',
+  title: 'LeetCode Drawing',
+  description: 'LeetCode Drawing',
   base: '/LeetCodeDrawing/',
   locales: {
     '/': {
