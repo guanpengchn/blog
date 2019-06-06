@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guanpengchn/nice-notes.git"
+    "url": "git+https://github.com/guanpengchn/LeetCodeDrawing.git"
   },
   "author": "Aaron Guan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guanpengchn/nice-notes/issues"
+    "url": "https://github.com/guanpengchn/LeetCodeDrawing/issues"
   },
-  "homepage": "https://github.com/guanpengchn/nice-notes#readme",
+  "homepage": "https://github.com/guanpengchn/LeetCodeDrawing#readme",
   "devDependencies": {
     "vuepress": "^0.14.11"
   },

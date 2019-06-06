@@ -41,16 +41,16 @@ const openArr = [
 module.exports = {
   title: 'Nice Notes',
   description: 'how to pronunciation',
-  base: '/nice-notes/',
+  base: '/LeetCodeDrawing/',
   locales: {
     '/': {
       lang: '简体中文',
-      description: 'nice-notes'
+      description: 'LeetCode Drawing'
     }
   },
   themeConfig: {
-    repo: 'guanpengchn/nice-notes',
-    docsRepo: 'guanpengchn/nice-notes',
+    repo: 'guanpengchn/LeetCodeDrawing',
+    docsRepo: 'guanpengchn/LeetCodeDrawing',
     docsDir: 'docs',
     editLinks: true,
     markdown: {
@@ -65,8 +65,8 @@ module.exports = {
         lang: '简体中文',
         selectText: 'Languages',
         editLinkText: '在 GitHub 上编辑此页',
-        title: 'Nice Notes',
-        description: 'nice-notes的中文介绍',
+        title: 'LeetCode Drawing',
+        description: 'LeetCode Drawing的中文介绍',
         nav: [
           { text: '算法题', link: '/algorithm/' },
           { text: 'Java', link: '/java/' },
