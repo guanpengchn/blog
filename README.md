@@ -12,6 +12,10 @@
 - 每日更新一题，**欢迎关注后加入天天算法群**，一起打卡学算法。
 - 文章发布公众号后，会同步更新[力扣](https://leetcode-cn.com/)题解和本项目的[在线阅读](https://guanpengchn.github.io/LeetCodeDrawing/)
 
+<div align="center">
+<img width="400" src="./img/erweima.gif"/>
+</div>
+
 ## 打卡记录
 
 ### 2019.05
@@ -30,7 +34,30 @@
 |||||||[152](https://mp.weixin.qq.com/s/FvA_wcLq4JU70nXK6lrFHA)|
 |[171](https://mp.weixin.qq.com/s/jC4BsJ5r6QixdnwTIchTQw)|[16](https://mp.weixin.qq.com/s/IBEJdeU6G-sBSMuv02LrHg)|[24](https://mp.weixin.qq.com/s/_bjKxIrmtwU0IPtyWtKd_g)|[2](https://mp.weixin.qq.com/s/8cMt_Yaeu6AT5jk3DhdhqA)|[3](https://mp.weixin.qq.com/s/O-2CdSJTFWodVZzGYAjGrA)|
 
-## 本地运行
+## 画解缩略图
+
+<div style="display:flex;flex-wrap:wrap;">
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/01/5cf1f2e3531b152490.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/05/5cf71911e9a9e85203.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/05/5cf76ee8a2d1022562.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/02/5cf3d6e4cce5b14060.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/05/5cf7854b1d01876390.png"/>
+
+
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/03/5cf480c4a8cbe39732.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/26/5cea62f466fb588159.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/31/5cf08618de59b74964.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/31/5cf0874d15ae839505.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/31/5cf10038d011223514.png"/>
+
+
+<img width="20%" height="20%" src="https://i.loli.net/2019/06/01/5cf1bbed3f12c79305.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/31/5cf0893693aa452745.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/31/5cf07cd2d2c8129014.png"/>
+<img width="20%" height="20%" src="https://i.loli.net/2019/05/26/5cea098e6bb7383654.png"/>
+</div>
+
+## 在线阅读开发
 
 在线阅读基于VuePress
 
@@ -42,9 +69,3 @@ $ yarn dev
 // 部署
 $ yarn deploy
 ```
-
-## 联系作者
-
-<div align="center">
-<img width="400" src="./img/erweima.gif"/>
-</div>
