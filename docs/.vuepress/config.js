@@ -2,6 +2,9 @@ const algorithmArr = [
   '',
   'record',
   '1',
+  '2',
+  '3',
+  '7',
   '16',
   '24',
   '77',
@@ -51,7 +54,11 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     markdown: {
-      html: true
+      html: true,
+      // config: md => {
+      //   // 使用更多的 markdown-it 插件!
+      //   md.use(require('markdown-it-katex'))
+      // }
     },
     locales: {
       '/': {
