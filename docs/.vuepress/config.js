@@ -37,13 +37,16 @@ const javaArr = [
 
 const openArr = [
   '',
-  'durantG5',
   'mdnice',
-  'muma',
-  'futureHistory',
-  'interviewSpring',
-  'interviewAutumn',
-  'peopleHistory'
+  '未来简史读后感',
+  '我的春招面试经历',
+  '我的秋招面试经历',
+  '人类真的幸福么？',
+  '套路解决递归问题',
+  '杜兰特受伤，后果自己承担',
+  'Java看书路径',
+  '技术人员的简历如何排版',
+  '蚂蚁金服读书感'
 ]
 
 module.exports = {
