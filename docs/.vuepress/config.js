@@ -22,7 +22,9 @@ const algorithmArr = [
   '70',
   '77',
   '83',
+  '88',
   '96',
+  '100',
   '101',
   '104',
   '111',
@@ -60,13 +62,14 @@ const openArr = [
   '技术人员的简历如何排版',
   '蚂蚁金服读书感',
   '牛客访谈',
-  'FlipaClip——人人都是灵魂画师'
+  'FlipaClip——人人都是灵魂画师',
+  '区块链的真实面试情况和应用场景'
 ]
 
 module.exports = {
   title: 'LeetCode Drawing',
   description: 'LeetCode Drawing',
-  base: '/LeetCodeDrawing/',
+  base: '/',
   locales: {
     '/': {
       lang: '简体中文',
