@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  background: white;
+  height: 100%;
+}
+
+.image {
+  width: 300px;
+  flex-shrink: 0;
+  height: 200px;
+  background-image: linear-gradient(147deg, #fffcf9, #cde8f6);
+  box-shadow: 3px 4px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.date
+.title {
+}
+
+.text {
+}

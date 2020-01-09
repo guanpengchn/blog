@@ -1,0 +1,48 @@
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  background: white;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.qrcode {
+  width: 100%;
+}
+
+.platforms {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 10%;
+}
+
+.platform {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 14px;
+  margin: 10px;
+}

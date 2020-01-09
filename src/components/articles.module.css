@@ -1,0 +1,13 @@
+.title {
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.title:hover {
+  color: #7e8dfd;
+}
+
+.content {
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+}

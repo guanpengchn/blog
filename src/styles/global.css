@@ -1,0 +1,26 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: rgb(245, 245, 245);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'PingFangSC-Regular', 'Ubuntu', sans-serif;
+}
+
+a {
+  box-shadow: none;
+}
+
+p {
+  font-size: 14px;
+}
