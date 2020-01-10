@@ -6,10 +6,6 @@ import Navbar from "../layout/navbar"
 import Content from "../layout/content"
 import Footer from "../layout/footer"
 
-import "../styles/common.css"
-import "../styles/bulma.min.css"
-import "../styles/slider.css"
-
 class BlogIndex extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.nodes

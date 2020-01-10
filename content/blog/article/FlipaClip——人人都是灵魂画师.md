@@ -1,9 +1,9 @@
 ---
 title: FlipaClip——人人都是灵魂画师
 date: 2019-05-06
-tags: 开源 画画
-isTop: true
+tags: 文章
 cover: https://i.loli.net/2019/06/26/5d13365b116ae24986.jpeg
+isTop: true
 ---
 
 一直以来很多人都在问我，算法题解的图是用什么软件画的？
@@ -107,4 +107,4 @@ FlipaClip主要支持以下功能：
 
 <span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://i.loli.net/2019/05/20/5ce23b33cc01d73486.gif)
+![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)

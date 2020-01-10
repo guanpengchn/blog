@@ -9,12 +9,14 @@ import "swiper/css/swiper.css"
 export default () => {
   const data = useStaticQuery(graphql`
     query CarouselQuery {
-      allMarkdownRemark(limit: 3) {
+      allMarkdownRemark(
+        filter: { frontmatter: { isTop: { eq: true } } }
+        limit: 5
+      ) {
         nodes {
           excerpt(truncate: true, pruneLength: 40)
           frontmatter {
             date(formatString: "YYYY-MM-DD")
-            isTop
             title
             cover
             tags
@@ -29,22 +31,20 @@ export default () => {
 
   const { nodes } = data.allMarkdownRemark
 
-  const articles = nodes
-    .filter(node => node.frontmatter.isTop)
-    .map(node => {
-      const { excerpt } = node
-      const { date, title, cover, tags, isTop } = node.frontmatter
-      const { slug } = node.fields
-      let tag = ""
-      if (tags) {
-        const tagArr = tags.split(/\s+/)
-        if (tagArr) {
-          tag = tagArr[0]
-        }
+  const articles = nodes.map(node => {
+    const { excerpt } = node
+    const { date, title, cover, tags } = node.frontmatter
+    const { slug } = node.fields
+    let tag = ""
+    if (tags) {
+      const tagArr = tags.split(/\s+/)
+      if (tagArr) {
+        tag = tagArr[0]
       }
-      return { date, title, cover, tag, excerpt, isTop, slug }
-    })
-    
+    }
+    return { date, title, cover, tag, excerpt, slug }
+  })
+
   const params = {
     // autoplay: {
     //   delay: 2500,

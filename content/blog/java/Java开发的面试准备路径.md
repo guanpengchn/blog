@@ -1,9 +1,8 @@
 ---
 title: Java开发的面试准备路径
 date: 2018-05-06
-tags: Java 画画
-isTop: true
-cover: https://i.loli.net/2019/06/26/5d1334b65e1bc44257.png
+tags: Java
+cover: https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif
 ---
 
 ## 零基础
@@ -72,4 +71,4 @@ cover: https://i.loli.net/2019/06/26/5d1334b65e1bc44257.png
 <span style="display:block;text-align:center;">上述书籍后台回复「<strong>电子书</strong>」下载</span>
 <span style="display:block;text-align:center;">觉得推荐很棒，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://i.loli.net/2019/05/20/5ce23b33cc01d73486.gif)
+![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)

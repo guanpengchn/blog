@@ -2,12 +2,12 @@
 .blog-slider {
   position: relative;
   width: 100%;
-  margin: auto;
   padding: 25px;
   border-radius: 2px;
   height: 250px;
   transition: all .3s;
   box-sizing: border-box;
+  margin-bottom: 0px !important; 
 }
 @media screen and (max-width: 992px) {
   .blog-slider {

@@ -113,6 +113,7 @@ img.thumbnail {
   height: 100%;
   box-shadow: 3px 4px 12px 0 rgba(0,0,0,0.2);
   border-radius: 2px;
+  background-color: white;
 }
 .navbar-logo img,
 .footer-logo img {
@@ -659,4 +660,13 @@ p {
 }
 .searchbox .searchbox-result-wrapper {
   overflow-y: visible !important;
+}
+.anchor {
+  border: none !important;
+}
+
+
+#gitalk-container {
+  width: 100%;
+  padding: 30px;
 }
