@@ -6,7 +6,9 @@ module.exports = {
     description: `不装了，摊牌了，我是全栈`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      github: `https://github.com/guanpengchn`,
+      zhihu: `https://www.zhihu.com/people/guan-peng-86-10`,
+      juejin: `https://juejin.im/user/59c3205b6fb9a00a532763e2`
     },
   },
   plugins: [

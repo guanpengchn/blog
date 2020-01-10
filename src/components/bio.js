@@ -14,12 +14,17 @@ export default () => {
           author
           qrcode
           description
+          social {
+            github
+            zhihu
+            juejin
+          }
         }
       }
     }
   `)
 
-  const { author, qrcode, description } = data.site.siteMetadata
+  const { author, qrcode, description, social } = data.site.siteMetadata
   return (
     <div className={styles.card}>
       <div className={styles.cardContent}>
@@ -30,8 +35,9 @@ export default () => {
           <a
             className={styles.platform}
             target="_blank"
+            rel="noopener noreferrer"
             title="GitHub"
-            href="https://github.com/guanpengchn"
+            href={social.github}
           >
             <img className={styles.icon} alt="" src={github} />
           </a>
@@ -39,16 +45,18 @@ export default () => {
           <a
             className={styles.platform}
             target="_blank"
+            rel="noopener noreferrer"
             title="Zhihu"
-            href="https://www.zhihu.com/people/guan-peng-86-10"
+            href={social.zhihu}
           >
             <img className={styles.icon} alt="" src={zhihu} />
           </a>
           <a
             className={styles.platform}
             target="_blank"
+            rel="noopener noreferrer"
             title="Juejin"
-            href="https://juejin.im/user/59c3205b6fb9a00a532763e2"
+            href={social.juejin}
           >
             <img className={styles.icon} alt="" src={juejin} />
           </a>

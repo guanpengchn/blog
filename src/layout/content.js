@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 
 import Bio from "../components/bio"
 import Category from "../components/category"
@@ -8,54 +7,9 @@ import Articles from "../components/articles"
 import Newest from "../components/newest"
 import Filter from "../components/filter"
 
-import "../styles/common.css"
-import "../styles/bulma.min.css"
-
 import styles from "./content.module.css"
 
 export default () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-        edges {
-          node {
-            excerpt
-            fields {
-              slug
-            }
-            frontmatter {
-              date(formatString: "MMMM DD, YYYY")
-              title
-              description
-            }
-          }
-        }
-      }
-    }
-  `)
-  const posts = data.allMarkdownRemark.edges
-  // {posts.map(({ node }) => {
-  //   const title = node.frontmatter.title || node.fields.slug
-  //   return (
-  //     <article key={node.fields.slug}>
-  //       <header>
-  //         <h3>
-  //           <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-  //             {title}
-  //           </Link>
-  //         </h3>
-  //         <small>{node.frontmatter.date}</small>
-  //       </header>
-  //       <section>
-  //         <p
-  //           dangerouslySetInnerHTML={{
-  //             __html: node.frontmatter.description || node.excerpt,
-  //           }}
-  //         />
-  //       </section>
-  //     </article>
-  //   )
-  // })}
   return (
     <div className="outerContainer">
       <section className={styles.section}>

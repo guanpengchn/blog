@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 import styles from "./filter.module.css"
 
@@ -21,22 +21,32 @@ export default () => {
       <div className={styles.tabs}>
         <ul>
           <li className="is-active">
-            <a>全部</a>
+            <a alt="" href="/">
+              全部
+            </a>
           </li>
           <li>
-            <a href="https://www.imkun.dev/categories/javascript">javascript</a>
+            <a alt="" href="https://www.imkun.dev/categories/javascript">
+              javascript
+            </a>
           </li>
           <li>
-            <a href="https://www.imkun.dev/categories/1571288928251">软件</a>
+            <a alt="" href="https://www.imkun.dev/categories/1571288928251">
+              软件
+            </a>
           </li>
           <li>
-            <a href="https://www.imkun.dev/categories/css">css</a>
+            <a alt="" href="https://www.imkun.dev/categories/css">
+              css
+            </a>
           </li>
           <li>
-            <a href="https://www.imkun.dev/categories/db">db</a>
+            <a alt="" href="https://www.imkun.dev/categories/db">
+              db
+            </a>
           </li>
           <li>
-            <a href="https://www.imkun.dev/categories/spring-boot">
+            <a alt="" href="https://www.imkun.dev/categories/spring-boot">
               Spring Boot
             </a>
           </li>

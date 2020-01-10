@@ -1,12 +1,10 @@
 ---
 title: FlipaClip——人人都是灵魂画师
-date: "2019-05-06T23:46:37.121Z"
-description: 一直以来很多人都在问我，算法题解的图是用什么软件画的？
-tag: 开源
+date: 2019-05-06
+tags: 开源 画画
 isTop: true
+cover: https://i.loli.net/2019/06/26/5d13365b116ae24986.jpeg
 ---
-
-# FlipaClip——人人都是灵魂画师
 
 一直以来很多人都在问我，算法题解的图是用什么软件画的？
 

@@ -1,12 +1,10 @@
 ---
 title: Java开发的面试准备路径
-date: "2018-05-06T23:46:37.121Z"
-description: 如果一点都没学过Java的话
-tag: Java
+date: 2018-05-06
+tags: Java 画画
 isTop: true
+cover: https://i.loli.net/2019/06/26/5d1334b65e1bc44257.png
 ---
-
-# Java开发的面试准备路径
 
 ## 零基础
 
