@@ -4,15 +4,13 @@ import Bio from "../components/bio"
 import Category from "../components/category"
 import Carousel from "../components/carousel"
 import Articles from "../components/articles"
-import Newest from "../components/newest"
+import Newest from "../components/listCard/newListCard"
 import Filter from "../components/filter"
 
-import styles from "./content.module.css"
-
-export default () => {
+export default ({ posts, currentPage, numPages }) => {
   return (
     <div className="outerContainer">
-      <section className={styles.section}>
+      <section className="section">
         <div className="container">
           <div className="columns">
             <div className="column is-8-tablet is-8-desktop is-9-widescreen is-9-fullhd has-order-2 column-main">
@@ -22,7 +20,11 @@ export default () => {
                   <Filter />
                   <div className="level">
                     <div className="columns">
-                      <Articles />
+                      <Articles
+                        posts={posts}
+                        currentPage={currentPage}
+                        numPages={numPages}
+                      />
                       <Newest />
                     </div>
                   </div>

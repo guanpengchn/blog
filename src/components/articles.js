@@ -1,31 +1,10 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import styles from "./articles.module.css"
 
-export default () => {
-  const data = useStaticQuery(graphql`
-    query ArticlesQuery {
-      allMarkdownRemark(limit: 10) {
-        nodes {
-          excerpt(truncate: true, pruneLength: 40)
-          frontmatter {
-            date(formatString: "YYYY-MM-DD")
-            title
-            cover
-            tags
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  `)
-
-  const { nodes } = data.allMarkdownRemark
-
-  const articles = nodes.map(node => {
+export default ({ posts, currentPage, numPages }) => {
+  const articles = posts.map(node => {
     const { excerpt } = node
     const { date, title, cover, tags } = node.frontmatter
     const { slug } = node.fields
@@ -38,6 +17,11 @@ export default () => {
     }
     return { date, title, cover, tag, excerpt, slug }
   })
+
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
+  const nextPage = (currentPage + 1).toString()
 
   return (
     <div className="column is-12-tablet is-12-desktop is-8-widescreen is-8-fullhd has-order-2 column-main">
@@ -94,47 +78,43 @@ export default () => {
           role="navigation"
           aria-label="pagination"
         >
-          <div className="pagination-previous is-invisible is-hidden-mobile">
-            <a
-              className="is-flex-grow has-text-black-ter"
-              href="https://www.imkun.dev/page/0"
-            >
-              上一页
-            </a>
-          </div>
-          <div className="pagination-next">
-            <a
-              className="is-flex-grow has-text-black-ter"
-              href="https://www.imkun.dev/page/2"
-            >
-              下一页
-            </a>
-          </div>
+          {!isFirst && (
+            <div className="pagination-previous">
+              <Link to={prevPage} rel="prev">
+                上一页
+              </Link>
+            </div>
+          )}
+
+          {!isLast && (
+            <div className="pagination-next">
+              <Link to={nextPage} rel="next">
+                下一页
+              </Link>
+            </div>
+          )}
+
           <ul className="pagination-list is-hidden-mobile">
-            <li>
-              <a
-                className="pagination-link is-current"
-                href="https://www.imkun.dev/page/1"
+            {Array.from({ length: numPages }, (_, i) => (
+              <li
+                key={`pagination-number${i + 1}`}
+                style={{
+                  margin: 0,
+                }}
               >
-                1
-              </a>
-            </li>
-            <li>
-              <a
-                className="pagination-link"
-                href="https://www.imkun.dev/page/2"
-              >
-                2
-              </a>
-            </li>
-            <li>
-              <a
-                className="pagination-link"
-                href="https://www.imkun.dev/page/3"
-              >
-                3
-              </a>
-            </li>
+                <Link
+                  to={`/${i === 0 ? "" : i + 1}`}
+                  className="pagination-link"
+                  style={{
+                    textDecoration: "none",
+                    color: i + 1 === currentPage ? "#ffffff" : "",
+                    background: i + 1 === currentPage ? "#007acc" : "",
+                  }}
+                >
+                  {i + 1}
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
