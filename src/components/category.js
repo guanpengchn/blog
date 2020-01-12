@@ -9,7 +9,7 @@ export default () => {
       allMarkdownRemark {
         nodes {
           frontmatter {
-            tags
+            tag
           }
         }
       }
@@ -19,9 +19,9 @@ export default () => {
   const { nodes } = data.allMarkdownRemark
   const category = {}
   for (const node of nodes) {
-    const { tags } = node.frontmatter
-    if (tags) {
-      const tagArr = tags.split(/\s+/)
+    const { tag } = node.frontmatter
+    if (tag) {
+      const tagArr = tag.split(/\s+/)
       for (const tagItem of tagArr) {
         if (category[tagItem] === undefined) {
           category[tagItem] = 1
@@ -49,7 +49,7 @@ export default () => {
         <ul className={styles.menuList}>
           {categoryArr.map((item, index) => (
             <li key={index}>
-              <a className={styles.menu} href={"/categories/" + item.name}>
+              <a className={styles.menu} href={"/category/" + item.name}>
                 <span className={styles.name}>{item.name}</span>
                 <span className={styles.tag}>{item.num}</span>
               </a>

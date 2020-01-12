@@ -7,6 +7,7 @@
   background-color: #000;
 }
 
+.openContainer,
 .moreContainer,
 .noticeContainer {
   display: flex;
@@ -34,17 +35,31 @@
 }
 
 .row {
-  margin: 6px 0;
+  display: flex;
+  align-items: center;
 }
 
 .icon {
-  margin-right: 4px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.star {
+  display: inline-block;
+  width: 68px;
+  color: rgb(253, 253, 253);
+  border: 1px solid rgb(253, 253, 253);
+  border-radius: 2px;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 720px) {
   .container {
     flex-direction: column;
   }
+  .openContainer,
   .moreContainer,
   .noticeContainer {
     padding: 20px 0px;

@@ -1,7 +1,7 @@
 ---
 title: Markdown Nice介绍
-date: 2018-05-06
-tags: 开源
+date: 2019-09-22
+tag: 开源
 cover: https://i.loli.net/2019/04/01/5ca1b0465f4ea.png
 ---
 

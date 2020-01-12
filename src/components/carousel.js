@@ -1,10 +1,8 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Swiper from "react-id-swiper"
 
 // import styles from "./carousel.module.css"
-
-import "swiper/css/swiper.css"
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -14,12 +12,12 @@ export default () => {
         limit: 5
       ) {
         nodes {
-          excerpt(truncate: true, pruneLength: 40)
+          excerpt(truncate: true, pruneLength: 30)
           frontmatter {
             date(formatString: "YYYY-MM-DD")
             title
             cover
-            tags
+            tag
           }
           fields {
             slug
@@ -33,32 +31,41 @@ export default () => {
 
   const articles = nodes.map(node => {
     const { excerpt } = node
-    const { date, title, cover, tags } = node.frontmatter
+    const { date, title, cover, tag } = node.frontmatter
     const { slug } = node.fields
-    let tag = ""
-    if (tags) {
-      const tagArr = tags.split(/\s+/)
-      if (tagArr) {
-        tag = tagArr[0]
-      }
-    }
     return { date, title, cover, tag, excerpt, slug }
   })
 
+  const [direction, setDirection] = useState("vertical")
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setDirection("horizontal")
+    } else {
+      setDirection("vertical")
+    }
+  }, [])
+
+  if (typeof window !== "undefined") {
+    window.onresize = function() {
+      if (window.innerWidth < 768) {
+        setDirection("horizontal")
+      } else {
+        setDirection("vertical")
+      }
+    }
+  }
+
   const params = {
-    // autoplay: {
-    //   delay: 2500,
-    //   disableOnInteraction: false
-    // },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
-    spaceBetween: 30,
-    direction: "vertical",
+    rebuildOnUpdate: true,
   }
+
   return (
-    <Swiper {...params}>
+    <Swiper {...params} direction={direction}>
       {articles.map((article, index) => (
         <div className="blog-slider card" key={index}>
           <div className="blog-slider__item">

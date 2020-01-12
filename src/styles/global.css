@@ -2,6 +2,7 @@ body {
   padding: 0px;
   margin: 0px;
   background: rgb(245, 245, 245);
+  font-size: 62.5% !important;
 }
 
 html,

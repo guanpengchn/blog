@@ -5,9 +5,9 @@ import Category from "../components/category"
 import Carousel from "../components/carousel"
 import Articles from "../components/articles"
 import Newest from "../components/listCard/newListCard"
-import Filter from "../components/filter"
+// import Filter from "../components/filter"
 
-export default ({ posts, currentPage, numPages }) => {
+export default ({ posts }) => {
   return (
     <div className="outerContainer">
       <section className="section">
@@ -17,14 +17,10 @@ export default ({ posts, currentPage, numPages }) => {
               <div className="columns">
                 <div className="column is-12-tablet is-12-desktop is-12-widescreen has-order-2 column-main">
                   <Carousel />
-                  <Filter />
-                  <div className="level">
+                  {/* <Filter /> */}
+                  <div className="level distance">
                     <div className="columns">
-                      <Articles
-                        posts={posts}
-                        currentPage={currentPage}
-                        numPages={numPages}
-                      />
+                      <Articles posts={posts} />
                       <Newest />
                     </div>
                   </div>

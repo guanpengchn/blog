@@ -1,7 +1,7 @@
 ---
 title: 领取2019年GitHub报告
-date: 2018-05-06
-tags: 开源
+date: 2019-12-29
+tag: 开源
 cover: https://imgkr.cn-bj.ufileos.com/d0f3283b-4ed3-4385-8a0d-45c9d7d2af36.png
 ---
 

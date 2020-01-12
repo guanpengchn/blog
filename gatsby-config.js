@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `灵魂画师的博客`,
-    author: `灵魂画师牧码`,
+    title: `编程如画`,
+    author: `灵魂画手`,
     qrcode: `https://my-wechat.mdnice.com/mdnice/%E4%BA%8C%E7%BB%B4%E7%A0%81_20191007150357.gif`,
     description: `不装了，摊牌了，我是全栈`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -61,25 +61,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `灵魂画手的编程博客`,
+        short_name: `画手编程`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-antd",
     {
-      resolve: `gatsby-plugin-less`,
+      resolve: `gatsby-plugin-baidu-analytics`,
       options: {
-        javascriptEnabled: true,
-        modifyVars: {
-          "primary-color": "#7e8dfd",
-          "success-color": "#AF76E8",
-        },
+        // baidu analytics siteId
+        siteId: "688e2ffdaec58e98ecac48733bc53c48",
+        // Put analytics script in the head instead of the body [default:false]
+        head: false,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

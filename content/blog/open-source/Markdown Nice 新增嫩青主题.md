@@ -1,8 +1,8 @@
 ---
 title: Markdown Nice 新增嫩青主题
-date: 2018-05-06
-tags: 开源
-cover: https://i.loli.net/2019/04/01/5ca1766ad4e58.png
+date: 2019-07-13
+tag: 开源
+cover: https://imgkr.cn-bj.ufileos.com/508d3fe4-4d78-455c-ae8b-7ecfc243a37c.png
 ---
 
 <img style="width: 120px" src="https://i.loli.net/2019/04/01/5ca1766ad4e58.png"/>

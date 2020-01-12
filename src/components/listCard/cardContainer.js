@@ -1,10 +1,10 @@
 import React from "react"
 
-export default ({ articles }) => {
+export default ({ articles, title }) => {
   return (
     <div className="card widget">
       <div className="card-content">
-        <h3 className="menu-label">最新文章</h3>
+        <h3 className="menu-label">{title}</h3>
         {articles.map((article, index) => (
           <article className="media" key={index}>
             <a href={article.slug} className="media-left">
@@ -12,13 +12,13 @@ export default ({ articles }) => {
                 <img
                   className="thumbnail"
                   src={article.cover}
-                  alt="JAVA动态代理详解"
+                  alt={article.title}
                 />
               </p>
             </a>
             <div className="media-content">
               <div className="content">
-                <div>
+                <div style={{paddingTop: "12px"}}>
                   <time className="has-text-grey is-size-7 is-uppercase">
                     {article.date}
                   </time>

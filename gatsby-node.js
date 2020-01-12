@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                tag
               }
             }
           }
@@ -43,6 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
+        tag: post.node.frontmatter.tag,
         previous,
         next,
       },
@@ -50,21 +52,35 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Create blog post list pages
-  const postsPerPage = 5;
-  const numPages = Math.ceil(posts.length / postsPerPage);
+  // const postsPerPage = 5
+  // const numPages = Math.ceil(posts.length / postsPerPage)
 
-  Array.from({ length: numPages }).forEach((_, i) => {
+  // Array.from({ length: numPages }).forEach((_, i) => {
+  //   createPage({
+  //     path: i === 0 ? `/` : `/${i + 1}`,
+  //     component: path.resolve("./src/templates/blog-list.js"),
+  //     context: {
+  //       limit: postsPerPage,
+  //       skip: i * postsPerPage,
+  //       numPages,
+  //       currentPage: i + 1,
+  //     },
+  //   })
+  // })
+
+  // 分类和专栏
+  const columnTags = Array.from(
+    new Set(posts.map(post => post.node.frontmatter.tag))
+  )
+  columnTags.forEach((tag, i) => {
     createPage({
-      path: i === 0 ? `/` : `/${i + 1}`,
-      component: path.resolve('./src/templates/blog-list.js'),
+      path: `/category/${tag}`,
+      component: path.resolve("./src/templates/blog-category.js"),
       context: {
-        limit: postsPerPage,
-        skip: i * postsPerPage,
-        numPages,
-        currentPage: i + 1
+        tag: tag,
       },
-    });
-  });
+    })
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -78,14 +94,4 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
-}
-
-exports.onCreateBabelConfig = ({ actions }) => {
-  actions.setBabelPlugin({
-    name: 'babel-plugin-import',
-    options: {
-      libraryName: 'antd',
-      style: true
-    }
-  })
 }

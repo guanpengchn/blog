@@ -1,8 +1,8 @@
 ---
 title: Markdown Nice新特性：阿里云图床
-date: 2018-05-06
-tags: 开源
-cover: https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/mdnice%20logo_20190823192027.png
+date: 2019-09-15
+tag: 开源
+cover: https://imgkr.cn-bj.ufileos.com/ecd8340e-ab56-42c6-a070-b7765a1d7b90.png
 ---
 
 <img style="width: 120px" src="https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/mdnice%20logo_20190823192027.png"/>
@@ -98,4 +98,4 @@ cover: https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/mdnice%20logo_2019082319
 <span style="display:block;text-align:center;">更多mdnice信息，<strong>请关注公众号</strong></span>
 <span style="display:block;text-align:center;">觉得新特性直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](http://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E4%BA%8C%E7%BB%B4%E7%A0%81_20190823124950.gif)
+![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)

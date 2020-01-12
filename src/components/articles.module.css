@@ -1,13 +1,19 @@
 .title {
   font-size: 18px;
   color: rgb(51, 51, 51);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 350px;
+  display: inline-block;
 }
 
 .title:hover {
   color: #7e8dfd;
 }
 
-.content {
-  font-size: 14px;
-  margin-bottom: 1.5rem;
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: 190px;
+  }
 }

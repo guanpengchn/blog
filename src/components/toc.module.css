@@ -1,0 +1,28 @@
+.toc {
+  font-size: 12px;
+}
+
+.toc a {
+  padding: 0px 10px 0px 16px;
+  line-height: 24px;
+  border-left: 2px solid #e8e8e8;
+  color: #595959;
+  display: inline-block;
+}
+
+.toc > ul > li > ul > li > a {
+  padding: 0px 10px 0px 32px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.toc > ul {
+  width: 100%;
+  overflow: auto;
+}
+
+.toc > ul > li > p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 0;
+}

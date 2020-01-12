@@ -8,10 +8,9 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "antd": "^3.26.6",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
-    "gatsby-plugin-antd": "^2.1.0",
+    "gatsby-plugin-baidu-analytics": "^2.2.0",
     "gatsby-plugin-feed": "^2.3.23",
     "gatsby-plugin-google-analytics": "^2.1.29",
     "gatsby-plugin-less": "^3.0.17",

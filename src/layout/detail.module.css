@@ -1,15 +1,17 @@
 .article .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .article .date,
 .article .title {
   margin: 0px;
   padding: 0px;
 }
+.article .date {
+  font-size: 13px;
+  line-height: 22px;
+}
 /*全局属性*/
 .article {
+  width: 100%;
   font-size: 16px;
   color: black;
   padding: 30px;
@@ -35,11 +37,11 @@
 
 /*标题*/
 .article h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: bold;
@@ -286,6 +288,42 @@ table tr td {
 }
 
 .article sub,
-sup {
+.article sup {
   line-height: 0;
+}
+
+.link {
+  font-size: 14px;
+}
+
+.article .icon {
+  width: 12px;
+  margin: 0;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.article .tagContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 2px;
+}
+
+.article .dateContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.article .analysisContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 0 10px;
+  font-size: 13px;
+  height: 24px;
 }

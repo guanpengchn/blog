@@ -57,10 +57,14 @@
 .card {
   border-radius: 2px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+  margin-left: 20px;
 }
 @media screen and (max-width: 769px) {
   .card-image img {
     height: 80% !important;
+  }
+  .card {
+    margin-left: 0;
   }
 }
 .outerContainer .card {
@@ -103,7 +107,7 @@
 
 @media screen and (max-width: 768px) {
   .section {
-    padding: 4.5rem 1rem;
+    padding: 1rem;
   }
 }
 
@@ -113,7 +117,7 @@ img.thumbnail {
   height: 100%;
   box-shadow: 3px 4px 12px 0 rgba(0,0,0,0.2);
   border-radius: 2px;
-  background-color: white;
+  background-color: rgb(255, 253, 253);
 }
 .navbar-logo img,
 .footer-logo img {
@@ -236,7 +240,7 @@ img.thumbnail {
   margin-bottom: 0.5rem !important;
 }
 .article .content {
-  font-size: 1.1rem;
+  font-size: 14px;
 }
 .article .content blockquote.pullquote {
   float: right;
@@ -669,4 +673,18 @@ p {
 #gitalk-container {
   width: 100%;
   padding: 30px;
+}
+
+.distance {
+  margin-top: 40px;
+}
+
+.active-toc {
+  border-left: 2px solid #7e8dfd !important;
+  color: #7e8dfd !important;
+}
+
+.sticky {
+  position: sticky;
+  top: 20px;
 }

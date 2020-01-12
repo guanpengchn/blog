@@ -1,8 +1,8 @@
 ---
 title: Java开发的面试准备路径
-date: 2018-05-06
-tags: Java
-cover: https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif
+date: 2019-07-16
+tag: Java
+cover: https://imgkr.cn-bj.ufileos.com/421c1430-0fe7-41fe-ab10-7c2763c91f9d.png
 ---
 
 ## 零基础

@@ -20,9 +20,12 @@
 .navbarItem a {
   text-decoration: none;
   box-shadow: none;
+  font-size: 14px;
 }
 
 .leftNav {
+  display: flex;
+  align-items: center;
   margin-right: 20px;
 }
 
@@ -39,8 +42,12 @@
 }
 
 .logo {
-  height: 40px;
-  margin-left: 20px;
+  height: 30px;
+  margin: 0 20px;
+}
+
+.leftNav .logoLink {
+  padding: 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -50,5 +57,9 @@
 
   .navbar {
     height: 7vh;
+  }
+
+  .navbarItem {
+    margin: 0;
   }
 }

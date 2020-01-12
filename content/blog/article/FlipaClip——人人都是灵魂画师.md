@@ -1,7 +1,7 @@
 ---
 title: FlipaClip——人人都是灵魂画师
-date: 2019-05-06
-tags: 文章
+date: 2019-06-26
+tag: 文章
 cover: https://i.loli.net/2019/06/26/5d13365b116ae24986.jpeg
 isTop: true
 ---
