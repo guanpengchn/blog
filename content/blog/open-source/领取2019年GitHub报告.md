@@ -1,8 +1,9 @@
 ---
-title: 领取2019年GitHub报告
+title: 我的2019年
 date: 2019-12-29
 tag: 开源
 cover: https://imgkr.cn-bj.ufileos.com/d0f3283b-4ed3-4385-8a0d-45c9d7d2af36.png
+isTop: true
 ---
 
 2019 年是我在开源世界里收获的一年
