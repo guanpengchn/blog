@@ -71,6 +71,7 @@
   z-index: 1;
   min-width: 0;
   color: #bfbfbf;
+  font-family: monospace;
 }
 .row {
   position: absolute;

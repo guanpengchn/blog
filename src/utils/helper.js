@@ -33,6 +33,10 @@ export const sortArticles = articles => {
       sortedArticles.push(articleObj[order])
     }
     return sortedArticles
+  } else {
+    const sortedArticles = articles.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    )
+    return sortedArticles
   }
-  return articles
 }

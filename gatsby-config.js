@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `编程如画`,
     author: `灵魂画手`,
-    qrcode: `https://my-wechat.mdnice.com/mdnice/%E4%BA%8C%E7%BB%B4%E7%A0%81_20191007150357.gif`,
+    qrcode: `https://imgkr.cn-bj.ufileos.com/1347eca0-6b2a-44f9-ab83-71289d2fcadc.png`,
     description: `不装了，摊牌了，我是全栈`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
