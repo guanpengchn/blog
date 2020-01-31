@@ -97,4 +97,4 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 <br/>
 
-![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)
+![](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)

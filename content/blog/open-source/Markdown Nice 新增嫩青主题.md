@@ -63,4 +63,4 @@ Use the `printf()`  function.
 
 <span style="display:block;text-align:center;">觉得排版主题很赞，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)
+![](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)

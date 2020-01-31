@@ -98,4 +98,4 @@ cover: https://imgkr.cn-bj.ufileos.com/ecd8340e-ab56-42c6-a070-b7765a1d7b90.png
 <span style="display:block;text-align:center;">更多mdnice信息，<strong>请关注公众号</strong></span>
 <span style="display:block;text-align:center;">觉得新特性直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/f3e6917b-991c-4ef5-a29a-bb5d9af1273a.gif)
+![](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)

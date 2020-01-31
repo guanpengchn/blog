@@ -1,5 +1,5 @@
 let leetCodeOrder = [
-  "天天算法群介绍",
+  "intro",
   "1",
   "2",
   "3",
