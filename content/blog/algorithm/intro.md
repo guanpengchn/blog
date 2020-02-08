@@ -6,9 +6,9 @@ cover: https://imgkr.cn-bj.ufileos.com/b2605f6a-15cf-4e3e-a224-59dd3a537384.png
 isTop: true
 ---
 
-今日题号：1238
+今日题号：1266
 
-题目链接：https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/
+题目链接：https://leetcode-cn.com/problems/minimum-time-visiting-all-points/
 
 - 力扣**精选题解**，画解算法合集，通过手写演算和绘画让算法更易理解。
 - 文章首发于微信公众号「[编程如画](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)」，您可以关注后获取文章更新。
