@@ -51,6 +51,16 @@ export default () => {
             GitHub 年度代码报告
           </a>
         </div>
+        <div className={styles.row}>
+          <span className={styles.star}>Star 100+ </span>
+          <a
+            rel="noopener noreferrer"
+            href="https://github.com/guanpengchn/blog"
+            target="_blank"
+          >
+            博客源码
+          </a>
+        </div>
         
       </div>
       <div className={styles.moreContainer}>
@@ -89,7 +99,7 @@ export default () => {
           <img alt="" src={leetcode} className={styles.icon} />
           <a
             rel="noopener noreferrer"
-            href="https://draw.mdnice.com/algorithm/"
+            href="https://drawcode.mdnice.com/algorithm/intro/"
             target="_blank"
           >
             力扣刷题
