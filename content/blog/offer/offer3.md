@@ -1,7 +1,7 @@
 ---
 title: 画解算法：面试题3. 数组中重复的数字
 date: 2020-02-12
-tag: 画解算法
+tag: 剑指offer
 cover: https://imgkr.cn-bj.ufileos.com/4b6c21d9-0892-4339-b9df-34f37cfe8688.png
 ---
 
