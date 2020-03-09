@@ -1,5 +1,16 @@
-灵魂画手的博客 -> https://drawcode.mdnice.com/
+灵魂画手的博客，欢迎 Star -> https://drawcode.mdnice.com/
 
-![](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)
+- 力扣**精选题解**，画解算法合集，通过手写演算和绘画让算法更易理解。
+- 文章首发于微信公众号「[编程如画](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)」和博客，除了算法外，还会聊前端、后端、面试和开源
+- 扫一扫关注公众号**回复「算法」入群**，天天算法共有**6 个群**，坚持每天一题共同学习！
 
-使用 gatsby.js 进行开发，仿[halo-theme-fantastic](https://github.com/imkundev/halo-theme-fantastic)主题样式
+<img width="500px" src="https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif" />
+
+
+打个我自己团队的广告
+
+1. 团队：阿里巴巴飞猪，生态技术研发部门
+2. 范围：2021届校招实习生 或 社招，java开发(p5/p6/p7都在招)
+3. 其他岗位如果感兴趣也可以投简历过来～会帮忙内推转递
+
+投递邮箱：875499765@qq.com，欢迎通过公众号加我好友私聊，内推后可查询面试进度

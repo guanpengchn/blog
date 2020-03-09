@@ -4187,7 +4187,6 @@ fieldset[disabled] .button {
 
 .tag:not(body) {
   align-items: center;
-  background-color: whitesmoke;
   border-radius: 4px;
   color: #4a4a4a;
   display: inline-flex;
