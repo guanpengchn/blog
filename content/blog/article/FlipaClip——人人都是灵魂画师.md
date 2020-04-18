@@ -106,4 +106,4 @@ FlipaClip主要支持以下功能：
 
 <span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/741c4d5c-cfb4-43d9-858b-146661b590df.gif)
+![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
