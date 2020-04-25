@@ -1,7 +1,7 @@
 ---
 title: 画聊前端CSP——内容安全策略
 date: 2020-03-09
-tag: 画聊
+tag: 聊聊
 cover: https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png
 ---
 

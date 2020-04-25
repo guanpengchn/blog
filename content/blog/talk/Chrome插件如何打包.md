@@ -1,7 +1,7 @@
 ---
 title: Chrome插件如何打包
 date: 2020-03-10
-tag: 画聊
+tag: 聊聊
 cover: https://imgkr.cn-bj.ufileos.com/93db5cfc-998f-4981-842a-fb01b1f3a946.png
 ---
 
