@@ -177,7 +177,7 @@ PPT 讲完之后，面试官还试用了下我做的 `mdnice` 等开源工具，
 
 大鹏搞了个技术交流群，未来不定期发面试题供大家学习讨论，欢迎加微信后回复「**技术**」拉你入群
 
-![](https://imgkr.cn-bj.ufileos.com/9bd9d733-ef1f-46db-b165-3360d0ec0033.png =50%x)
+![](https://imgkr.cn-bj.ufileos.com/9bd9d733-ef1f-46db-b165-3360d0ec0033.png)
 
 **<center>来个直击灵魂的三连吧</center>**
 
