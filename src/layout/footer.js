@@ -99,7 +99,7 @@ export default () => {
           <img alt="" src={leetcode} className={styles.icon} />
           <a
             rel="noopener noreferrer"
-            href="https://drawcode.mdnice.com/algorithm/intro/"
+            href="https://draw.mdnice.com/algorithm/intro/"
             target="_blank"
           >
             力扣刷题
@@ -109,7 +109,7 @@ export default () => {
       <div className={styles.noticeContainer}>
         <h2>注意</h2>
         <p>请勿评论或发表不当言论，违者后果自负。</p>
-        <p>Copyright Ⓒ 2019-2020 drawcode. All rights reserved.</p>
+        <p>Copyright Ⓒ 2019-2020 mdnice. All rights reserved.</p>
         <p>
           <span id="busuanzi_container_site_pv">
             本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
