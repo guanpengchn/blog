@@ -12,7 +12,7 @@ export default () => {
       <div className={styles.openContainer}>
         <h2>我的开源</h2>
         <div className={styles.row}>
-          <span className={styles.star}>Star 1.2k+ </span>
+          <span className={styles.star}>Star 2.2k+ </span>
           <a
             rel="noopener noreferrer"
             href="https://github.com/mdnice/markdown-nice"
@@ -22,7 +22,7 @@ export default () => {
           </a>
         </div>
         <div className={styles.row}>
-          <span className={styles.star}>Star 900+ </span>
+          <span className={styles.star}>Star 1.6k+ </span>
           <a
             rel="noopener noreferrer"
             href="https://github.com/guanpengchn/awesome-books"
@@ -32,7 +32,7 @@ export default () => {
           </a>
         </div>
         <div className={styles.row}>
-          <span className={styles.star}>Star 200+ </span>
+          <span className={styles.star}>Star 500+ </span>
           <a
             rel="noopener noreferrer"
             href="https://github.com/mdnice/markdown-resume"
