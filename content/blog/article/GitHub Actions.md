@@ -2,7 +2,7 @@
 title: 持续集成利器，GitHub Actions
 date: 2020-07-03
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/d993582c-cba9-479c-80a0-5db8129464a2.png
+cover: https://files.mdnice.com/pic/9147800f-0362-4693-8885-17d7c6f63af7.jpg
 ---
 
 ## 简介
@@ -19,7 +19,7 @@ GitHub Actions 是 GitHub 推出的持续集成服务，于 2018 年 10 月推�
 
 后面的服务器编译、测试、打包和部署都是重复性工作，完全可以用程序替代，没有必要用人工去手动操作，而且如果要部署 100 台服务器，全部靠手工的话，运维人员一定会累吐血
 
-![](https://imgkr.cn-bj.ufileos.com/71914dce-7811-4e29-9633-c9eec6adae41.gif)
+![](https://files.mdnice.com/pic/d78077f1-6db2-4a9f-be56-bed57b3c1ec1.jpg)
 
 于是为了解决上述问题，机智的程序员们发明了持续集成！
 
@@ -27,11 +27,11 @@ GitHub Actions 是 GitHub 推出的持续集成服务，于 2018 年 10 月推�
 
 持续集成的目标：代码提交之后的所有服务器编译、测试、打包和部署所有流程都自动执行。
 
-![](https://imgkr.cn-bj.ufileos.com/d993582c-cba9-479c-80a0-5db8129464a2.png)
+![](https://files.mdnice.com/pic/9147800f-0362-4693-8885-17d7c6f63af7.jpg)
 
 之前通常的方案如下图所示，其中虚线框中的就是持续集成部分
 
-![](https://imgkr.cn-bj.ufileos.com/e7da7907-7f53-451f-a1b6-cbedca5e2f72.png)
+![](https://files.mdnice.com/pic/2d525f19-9245-4fe7-8e5c-a2a97cc66a84.jpg)
 
 可以看出来整个流程还是十分流畅的，但是其中 jenkins 是需要开发人员手工搭建的，并且要占用服务器的一定资源，有一些麻烦
 
@@ -47,7 +47,7 @@ GitHub Actions 可以理解为提交代码到 GitHub 后 GitHub 直接提供服�
 
 官方提供了 actions 市场，可以根据自己的需求选择，`https://github.com/marketplace?type=actions`
 
-![](https://static01.imgkr.com/temp/85db310eb3e14983b305850b5a5e1053.png)
+![](https://files.mdnice.com/pic/c4ebbec0-70a8-4af3-b653-29fad9e09d2e.jpg)
 
 ### 如何编写 actions
 
@@ -112,7 +112,7 @@ jobs:
 
 选择 settings->secrets，然后添加文件中的 secrets，这里的值不会被泄露出去
 
-![](https://imgkr.cn-bj.ufileos.com/3e6c2ced-d813-4a69-ac8e-bdc25669f859.png)
+![](https://files.mdnice.com/pic/fc6b3b3a-5fd6-4203-85f2-15d744c1ee19.jpg)
 
 其中 HOST值为 IP地址，USERNAME 为用户名，PASSWORD为登录密码
 
@@ -140,7 +140,7 @@ GitHub Actions将应用版本管理和持续集成非常好的结合了起来，
 
 除了上述的例子之外，还有很多功能值得探索，建议大家多多尝试，给自己的代码插上持续集成的翅膀！
 
-![](https://imgkr.cn-bj.ufileos.com/0fe13426-c3aa-4f40-81f5-a650eb5b720c.gif)
+![](https://files.mdnice.com/pic/dba30765-0d74-487d-bc65-b10bd7b71064.jpg)
 
 
 

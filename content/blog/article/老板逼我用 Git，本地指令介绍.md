@@ -2,7 +2,7 @@
 title: 老板逼我用 Git，本地指令介绍
 date: 2020-06-11
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/b14c4e65-f8e1-40fa-9538-63482aba7eb3.png
+cover: https://files.mdnice.com/pic/b025898b-84da-484b-b5ec-70fe1384add2.jpg
 ---
 
 最近打算写个系列文章，GitHub 和 Git 工作流，主要包括 Git 简介、GitHub 简介和 Git 工作流，本篇文章包含以下内容：
@@ -13,11 +13,11 @@ cover: https://imgkr.cn-bj.ufileos.com/b14c4e65-f8e1-40fa-9538-63482aba7eb3.png
 
 最近老板表示：画手呀，快到 618 了，你作为一个技术人员设计下产品文案吧
 
-![](https://imgkr.cn-bj.ufileos.com/b14c4e65-f8e1-40fa-9538-63482aba7eb3.png)
+![](https://files.mdnice.com/pic/b025898b-84da-484b-b5ec-70fe1384add2.jpg)
 
 迫于压力，不得不去写文案，但是作为一个技术人员出身，我敏感的意识到在修改文案的时候，可能会加一行文字，减一行文字，或者新增文件删除文件，如果我操作错了，想找回之前的内容怎么办？像下图一样拷贝多个文件副本固然是一种解决方式，但更好的就是使用 Git
 
-![](https://imgkr.cn-bj.ufileos.com/ef4c3d93-2193-4b55-aedf-fdc5643dde5a.png)
+![](https://files.mdnice.com/pic/894ed64f-cff5-45a9-bdab-9088e1e531a0.jpg)
 
 Git 是目前世界上最先进的分布式版本控制系统，能够帮助我们做版本控制，很方便的查看每一步的文件变化，并且可以回退到任何一个版本，用于与他人之间协作
 
@@ -31,7 +31,7 @@ Git 指令分为**本地相关指令**和**远程相关指令**，本地指令�
 
 **我**：第一次的我也没单独留存呀。。。
 
-![](https://imgkr.cn-bj.ufileos.com/255ba774-72f0-4f64-a238-f9adf8c92e8b.png)
+![](https://files.mdnice.com/pic/8a45a01e-5be2-41d1-9786-388b6110b1a6.jpg)
 
 机智的我忽然想到，我不是使用了 Git 么，肯定是可以找回的，于是我找出了 Git 本地基础指令列表，看看能不能解决我的问题
 
@@ -47,7 +47,7 @@ $ git reset [id] // 回溯历史版本
 
 上述指令结合下面的图来看最直观
 
-![](https://imgkr.cn-bj.ufileos.com/ff48c7e9-1d03-4b15-8e2f-45ef18800a8c.png)
+![](https://files.mdnice.com/pic/ca8b5627-0861-497b-b610-12c974b219eb.jpg)
 
 上图中的工作区就是指的实际的文件目录，版本库则是`.git`目录中保存的信息，通常不会去打开这个目录。
 

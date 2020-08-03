@@ -46,7 +46,7 @@ cover: https://imgkr.cn-bj.ufileos.com/917e3fbc-ac88-4fac-a95e-e50cb1b07ab9.png
 
 以一个普通 Spring Boot 项目为例，首先放一张图，看一下整体项目完成后的结构
 
-![](https://imgkr.cn-bj.ufileos.com/d04b1ebb-a890-4eaf-8214-99fe99152e63.png)
+![](https://files.mdnice.com/pic/1886b48b-fcc2-43ee-9ab0-095ba6970dc3.jpg)
 
 其中目录结构为
 
@@ -275,15 +275,15 @@ cover: https://imgkr.cn-bj.ufileos.com/917e3fbc-ac88-4fac-a95e-e50cb1b07ab9.png
 
 其中建议除了各个子模块单独使用的包之外，其他的都要在父模块下的 pom.xml 中配置包信息，这样便于包的版本控制
 
-![](https://imgkr.cn-bj.ufileos.com/14b9eb35-a0ea-45df-852a-d8b7e94eb1f8.png)
+![](https://files.mdnice.com/pic/e1aa44dd-cd24-41fd-8db3-54547151249f.jpg)
 
-![](https://imgkr.cn-bj.ufileos.com/a5bee7b7-6e06-4a89-9ecc-e6d0633f4dcf.png)
+![](https://files.mdnice.com/pic/a3a413a4-cd10-4306-a36a-560a5bf1b15f.jpg)
 
 项目内部存在了包的依赖之后，不同模块之间的代码即可进行使用，比如 detail-service 依赖 detail-client，那么 detail-client 中的 Test2 就可以被 detail-service 使用了
 
-![](https://imgkr.cn-bj.ufileos.com/69734b39-9f7b-4098-82b7-ee7bc4f2d476.png)
+![](https://files.mdnice.com/pic/f18b56bc-79d0-40d8-8666-c6cb988acf0b.jpg)
 
-![](https://imgkr.cn-bj.ufileos.com/d1315d17-4e01-407c-b4d6-f22a19e62574.png)
+![](https://files.mdnice.com/pic/efb25b45-84fe-4625-bc80-f2997d24e6fc.jpg)
 
 但是反过来 detail-client 不可以使用 detail-service 中的类，因为依赖是单向的关系
 
@@ -299,10 +299,10 @@ $ mvn clean install && mvn spring-boot:run -pl detail-start
 
 -pl detail-start 则代表的是有 application 启动类的子模块目录
 
-![](https://imgkr.cn-bj.ufileos.com/5089b021-0e15-4f61-8769-7fcd27b6ff1d.png)
+![](https://files.mdnice.com/pic/c68cfa09-f9d1-43fd-b291-8900def61f49.jpg)
 
 ## 参考代码
 
 https://github.com/guanpengchn/detail-page/tree/demo1
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://files.mdnice.com/pic/c5928799-f819-4460-ac10-bc610ddb3947.jpg)

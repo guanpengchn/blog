@@ -36,11 +36,11 @@ cover: https://imgkr.cn-bj.ufileos.com/41fc5b8e-5011-4878-af39-1e41c617a656.png
 
 注册的时候会创建**组织**，注册完成后新建项目，选择 React 创建即可
 
-![](https://imgkr.cn-bj.ufileos.com/6ec76858-5838-4218-8d27-e29005af010c.png)
+![](https://files.mdnice.com/pic/656e7a55-a4d9-4afd-8adc-b7628cc59279.jpg)
 
 创建后会有一个官方指导，该如何使用代码
 
-![](https://imgkr.cn-bj.ufileos.com/346bdf64-d7f5-43ae-8a31-55f882383078.png)
+![](https://files.mdnice.com/pic/b2449828-313f-4f59-a219-e40654af7c84.jpg)
 
 按照步骤操作即可，其中要注意 dsn 的添加，这个是每个项目特有的，不要放错
 
