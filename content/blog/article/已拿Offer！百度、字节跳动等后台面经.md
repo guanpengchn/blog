@@ -2,12 +2,12 @@
 title: 已拿Offer！百度、字节跳动等后台面经
 date: 2020-07-15
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/374383c0-d226-4bce-a06c-9bd1d44d37d4.png
+cover: https://files.mdnice.com/pic/9052902d-5620-4be9-ab6a-34fa23216d77.jpg
 ---
 
 > 我画你猜：**大鹏文章中的一句诗词**，谜底结尾揭晓
 
-![](https://imgkr.cn-bj.ufileos.com/374383c0-d226-4bce-a06c-9bd1d44d37d4.png)
+![](https://files.mdnice.com/pic/9052902d-5620-4be9-ab6a-34fa23216d77.jpg)
 
 转眼已经工作入职一年的时间了，还是有非常多收获的，感谢这一年的时光，感谢所有遇到的人，让我变成更好的自己。
 
@@ -154,8 +154,8 @@ void resort(int[] arr, int N, int M) {
 16. 什么是数据库事务？事务在哪些地方有应用？
 17. 如何设计一个哈希结构，都要注意什么？
 
-![](https://imgkr.cn-bj.ufileos.com/5be05303-696b-40a6-bff8-2b251e2504a5.png)
+![](https://files.mdnice.com/pic/fdfed1e0-8cb3-4179-83c1-8534652bcdb8.jpg)
 
 <span style="display:block;text-align:center;">觉得画直击灵魂，欢迎<strong>点赞</strong>、<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://files.mdnice.com/pic/4fda738b-6883-4a09-ab38-692cb08c2ce5.jpg)
