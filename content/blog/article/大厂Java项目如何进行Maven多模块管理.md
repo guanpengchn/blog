@@ -2,7 +2,7 @@
 title: 大厂Java项目如何进行Maven多模块管理
 date: 2020-05-02
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/917e3fbc-ac88-4fac-a95e-e50cb1b07ab9.png
+cover: https://files.mdnice.com/pic/1033c334-3f45-4877-bb91-50f7f6e0fa24.png
 ---
 
 ## 什么是多模块管理

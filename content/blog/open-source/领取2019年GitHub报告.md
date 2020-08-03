@@ -2,7 +2,7 @@
 title: 我的2019年
 date: 2019-12-29
 tag: 开源
-cover: https://imgkr.cn-bj.ufileos.com/d0f3283b-4ed3-4385-8a0d-45c9d7d2af36.png
+cover: https://files.mdnice.com/pic/d1afb25a-a29d-4406-b617-745cdee712a2.jpg
 isTop: true
 ---
 
@@ -31,18 +31,18 @@ isTop: true
 
 ## 我的代码报告
 
-![1](https://imgkr.cn-bj.ufileos.com/d0f3283b-4ed3-4385-8a0d-45c9d7d2af36.png)
-![2](https://imgkr.cn-bj.ufileos.com/eb9e56c0-0054-4b95-998b-c684503653be.png)
-![3](https://imgkr.cn-bj.ufileos.com/d4316b30-5aa3-4fe7-ad1b-403d1966e305.png)
-![4](https://imgkr.cn-bj.ufileos.com/1ca51b1c-9c23-43cb-a155-6f0b263c0139.png)
-![5](https://imgkr.cn-bj.ufileos.com/8b7e8087-aebe-4d3e-bd9d-a497e0e20124.png)
-![6](https://imgkr.cn-bj.ufileos.com/6c2b7ffa-9440-4be7-9cb4-79a69c676124.png)
-![7](https://imgkr.cn-bj.ufileos.com/a0e5eab9-6384-4eab-8ac8-17e553ff9e77.png)
-![8](https://imgkr.cn-bj.ufileos.com/becde9d7-6cae-4a02-9806-12cf07684d5a.png)
-![9](https://imgkr.cn-bj.ufileos.com/72b9c82c-5a31-49c2-9c4f-d2a1eef7a4f8.png)
-![10](https://imgkr.cn-bj.ufileos.com/5d58c97d-0efe-4d16-9c52-5873744b071d.png)
-![11](https://imgkr.cn-bj.ufileos.com/3fab2e72-5f13-46b1-b6de-a39c60f1ac73.png)
-![12](https://imgkr.cn-bj.ufileos.com/f7fadd20-b6d7-400c-8bb9-4a7950bc6aaa.png)
+![1](https://files.mdnice.com/pic/d1afb25a-a29d-4406-b617-745cdee712a2.jpg)
+![2](https://files.mdnice.com/pic/412a36c4-68f7-44b8-a0b3-7ff38ce2bd2a.jpg)
+![3](https://files.mdnice.com/pic/583d55e6-5b58-444a-b121-dc3c4aa53dbe.jpg)
+![4](https://files.mdnice.com/pic/14a94988-c651-470d-bd2c-12d5170295af.jpg)
+![5](https://files.mdnice.com/pic/f40275c1-ab5e-4453-b83c-41d63edadd1c.jpg)
+![6](https://files.mdnice.com/pic/8fc46f5d-06fd-4242-96ba-1bc0eb2b6b24.jpg)
+![7](https://files.mdnice.com/pic/9ea5edf9-bae6-40f7-9830-f1777ec3dc67.jpg)
+![8](https://files.mdnice.com/pic/23655588-3291-4ef7-8e68-082e5c0258cd.jpg)
+![9](https://files.mdnice.com/pic/3a15a77c-dd6a-417a-8d31-ec1d4226c660.jpg)
+![10](https://files.mdnice.com/pic/ef82e36e-5859-4509-8092-45b8bac1056f.jpg)
+![11](https://files.mdnice.com/pic/1fe362a6-5d95-4855-8247-ddc42398d7bb.jpg)
+![12](https://files.mdnice.com/pic/58766632-46db-4336-8082-002fbd0e5e3b.jpg)
 
 关注公众号，回复「**报告**」除了可以领取报告外，还可以获取该项目的开源代码，并且：
 

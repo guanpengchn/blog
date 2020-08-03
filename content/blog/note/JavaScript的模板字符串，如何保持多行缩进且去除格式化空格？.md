@@ -2,7 +2,7 @@
 title: JavaScript的模板字符串，如何保持多行缩进且去除格式化空格？
 date: 2018-09-18
 tag: 笔记
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/25b82bfe-4f9a-4686-889d-d5ed1b431435.png
 ---
 
 JavaScript在ES6标准之后，支持了模板字符串，模板字符串（template string）是增强版的字符串，用反引号（`）标识。它可以当作普通字符串使用，也可以用来定义多行字符串，或者在字符串中嵌入变量。  

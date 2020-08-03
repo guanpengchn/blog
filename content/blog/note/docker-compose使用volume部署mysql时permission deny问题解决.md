@@ -2,7 +2,7 @@
 title: docker-compose使用volume部署mysql时permission deny问题解决
 date: 2018-08-10
 tag: 笔记
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/25b82bfe-4f9a-4686-889d-d5ed1b431435.png
 ---
 
 ## 问题

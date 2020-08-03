@@ -2,10 +2,10 @@
 title: Markdown Nice 新增嫩青主题
 date: 2019-07-13
 tag: 开源
-cover: https://imgkr.cn-bj.ufileos.com/508d3fe4-4d78-455c-ae8b-7ecfc243a37c.png
+cover: https://files.mdnice.com/pic/bedbfe2a-e7ad-4b11-8467-dcbaed01f2e3.png
 ---
 
-<img style="width: 120px" src="https://i.loli.net/2019/04/01/5ca1766ad4e58.png"/>
+<img style="width: 120px" src="https://files.mdnice.com/pic/54324c06-9869-4274-a69f-7942e263ba4d.jpg"/>
 
 ## Markdown Nice 简介
 
@@ -63,4 +63,4 @@ Use the `printf()`  function.
 
 <span style="display:block;text-align:center;">觉得排版主题很赞，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://files.mdnice.com/pic/ffa7c259-7c38-4528-8913-25e2c2656c42.jpg)

@@ -2,7 +2,7 @@
 title: 查看java内存情况指令
 date: 2018-12-10
 tag: Java
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/c4749fe6-56b9-44f0-9f7b-ed9a41325974.png
 ---
 
 - jinfo:可以输出并修改运行时的java 进程的opts。 

@@ -2,7 +2,7 @@
 title: vue-element-admin使用琐记
 date: 2018-08-10
 tag: 笔记
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/25b82bfe-4f9a-4686-889d-d5ed1b431435.png
 ---
 
 做项目主要用了前端框架vue.js，其中使用了开源后台系统[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)，用别人的开源工具果然有很大成长，知道很多东西，做一篇笔记，记录下零零碎碎学到的东西

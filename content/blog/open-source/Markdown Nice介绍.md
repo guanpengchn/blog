@@ -2,7 +2,7 @@
 title: Markdown Nice介绍
 date: 2019-09-22
 tag: 开源
-cover: https://i.loli.net/2019/04/01/5ca1b0465f4ea.png
+cover: https://files.mdnice.com/pic/a89d0b76-7edf-4e8b-ae07-c6923bcb0b55.jpg
 ---
 
 # 微信排版 Markdown Nice
@@ -43,9 +43,9 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 - 可提交主题供人瞻仰
 - **我颜值高呀**
 
-![左边编辑器](https://i.loli.net/2019/04/01/5ca1b0465f4ea.png)
+![左边编辑器](https://files.mdnice.com/pic/a89d0b76-7edf-4e8b-ae07-c6923bcb0b55.jpg)
 
-![右边预览区域](https://i.loli.net/2019/04/01/5ca1b048ad7d8.png)
+![右边预览区域](https://files.mdnice.com/pic/6a3bb4f6-8e56-4e5f-b25b-2ab0f5ba72d1.jpg)
 
 
 这么多优秀的特性摆在你面前，还在等什么？
@@ -97,4 +97,4 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 <br/>
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://files.mdnice.com/pic/f9bd3070-dc72-45e2-b4f4-1a5032b397d1.jpg)

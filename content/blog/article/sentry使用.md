@@ -2,7 +2,7 @@
 title: 面试官：前端代码线上出错如何解决？使用sentry
 date: 2020-04-25
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/41fc5b8e-5011-4878-af39-1e41c617a656.png
+cover: https://files.mdnice.com/pic/28613864-a87f-4a35-a11b-39e15a6642bc.png
 ---
 
 ## 简介
@@ -46,9 +46,9 @@ cover: https://imgkr.cn-bj.ufileos.com/41fc5b8e-5011-4878-af39-1e41c617a656.png
 
 其中默认界面是英文的，并且时区不是中国的时区，会有 8 个小时的时差，建议更改过来，更改位置在用户设置的具体项目设置中
 
-![](https://imgkr.cn-bj.ufileos.com/fcc400c6-5c31-4f83-af52-26e31bcccb32.png =50%x)
+![](https://files.mdnice.com/pic/b6a30972-688d-4265-a14a-7428dedd6032.png =50%x)
 
-![](https://imgkr.cn-bj.ufileos.com/efff163e-0b58-499c-bb00-998cd6dce519.png)
+![](https://files.mdnice.com/pic/cc5273ce-254b-4947-8504-8b49ddc22447.png)
 
 ### 2、前端启动
 
@@ -91,25 +91,25 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 此时启动该项目，然后点击 button，查看 console 就可以发现出现了报错
 
-![](https://imgkr.cn-bj.ufileos.com/da3d6324-1bd2-4fbb-9977-b2529f0058cf.png =50%x)
+![](https://files.mdnice.com/pic/54e7a170-6c84-48ca-b48e-35a21ad0a6b2.png =50%x)
 
-![](https://imgkr.cn-bj.ufileos.com/6e7b286a-b2f0-4b65-9892-781ee65adbf4.png)
+![](https://files.mdnice.com/pic/1b38fe03-deee-4e01-b51a-4ac9d0540bcc.png)
 
 此时查看 chrome 的 network，就会发现 sentry 已经发了一个请求出去，通知我们的系统了
 
-![](https://imgkr.cn-bj.ufileos.com/55a3ec28-6956-4157-87e0-a48572005496.png)
+![](https://files.mdnice.com/pic/4c0284c3-c607-4c34-86b6-1570483925b7.png)
 
 然后再去我们的系统查看，在问题导航处就会发现一个新的 issue
 
-![](https://imgkr.cn-bj.ufileos.com/563d6b20-2ef3-43b6-9df3-3d1acf328f88.png)
+![](https://files.mdnice.com/pic/02e6e7f3-f4ff-4906-b35e-0592eab8d0e4.png)
 
 打开后可以看到详细信息，其中会发现并不能准确的找到源代码的错误位置，只是会有整个错误的路径和出错人的操作系统，浏览器信息等
 
-![](https://imgkr.cn-bj.ufileos.com/00ea7839-52c9-4ab8-837c-621926985c6b.png)
+![](https://files.mdnice.com/pic/9374ff84-a414-4d3b-a20a-d8d8a1499bdb.png)
 
 如果连续触发几次这个错误，会发现只要是同一个错误，错误条数并不会增加，只是在事件和用户数量上做增加
 
-![](https://imgkr.cn-bj.ufileos.com/e3a78aa7-dd01-4b50-81b4-15f26c66ed8f.png)
+![](https://files.mdnice.com/pic/82cd11bc-3337-4159-945f-e5e7acb5a3e6.png)
 
 ### 3、设置发布项目的 release 版本号
 
@@ -130,7 +130,7 @@ Sentry.init({
 
 其中`test004`就是 release 版本号，如果此时点击 button 触发异常，查看 sentry 就会看到版本的位置出现了内容，在没有指定 release 版本号的时候这里显示的是`n/a`
 
-![](https://imgkr.cn-bj.ufileos.com/2906529f-0c32-4648-bc2d-e6609234bc9f.png)
+![](https://files.mdnice.com/pic/7294091b-280a-486d-b799-7134ccf70801.png)
 
 ### 3、source map 上传
 
@@ -168,11 +168,11 @@ $ sentry-cli releases files test004 upload-sourcemaps --url-prefix '~/static/js'
 
 成功后打开 sentry 控制台的版本即可看到上传的文件
 
-![](https://imgkr.cn-bj.ufileos.com/e8d43c37-32fd-48c6-bd94-7ff3138e69ab.png)
+![](https://files.mdnice.com/pic/7add33eb-efa6-4eee-aa92-f644190e7384.png)
 
 此时再点击 button 触发异常，可以发现已经能够映射到具体的代码行位置了，这就是由于上传 source map 的原因
 
-![](https://imgkr.cn-bj.ufileos.com/cce207ba-8c32-4713-bd0c-d2cc2718b486.png)
+![](https://files.mdnice.com/pic/76bf2683-2dcf-40ab-80b9-dfde89b76fa9.png)
 
 #### 通过 webpack 插件（@sentry/webpack-plugin）上传
 
@@ -222,7 +222,7 @@ Sentry.init({
 });
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/2531eb7c-6755-494d-8b43-9207a82804c7.png)
+![](https://files.mdnice.com/pic/76bf2683-2dcf-40ab-80b9-dfde89b76fa9.png)
 
 - 还有可以自定义 bug 上下文信息
 
@@ -238,9 +238,9 @@ Sentry.setExtra('data', {
 Sentry.captureException(new Error('throw new api'))
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/b45c5b1c-83d8-49d9-a292-71d9593e01f9.png)
+![](https://files.mdnice.com/pic/c649add6-201f-40be-b4b5-41ce016e3d15.png)
 
-![](https://imgkr.cn-bj.ufileos.com/24f2a1e8-067e-4709-9894-c39374a24828.png)
+![](https://files.mdnice.com/pic/ff8eb106-79da-4774-9bab-c4466c763b2d.png)
 
 ## 总结
 

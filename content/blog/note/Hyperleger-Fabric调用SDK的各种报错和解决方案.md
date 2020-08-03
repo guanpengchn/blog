@@ -2,7 +2,7 @@
 title: Hyperleger-Fabric调用SDK的各种报错和解决方案
 date: 2018-08-10
 tag: 笔记
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/25b82bfe-4f9a-4686-889d-d5ed1b431435.png
 ---
 
 ## 1.创建用户报错SSL

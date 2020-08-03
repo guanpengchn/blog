@@ -2,7 +2,7 @@
 title: Java开发Tips
 date: 2018-09-01
 tag: 收藏
-cover: https://imgkr.cn-bj.ufileos.com/9bda0377-12ca-417b-a8c9-380e48834ade.png
+cover: https://files.mdnice.com/pic/c4749fe6-56b9-44f0-9f7b-ed9a41325974.png
 ---
 
 ### Java

@@ -2,7 +2,7 @@
 title: 画聊前端CSP——内容安全策略
 date: 2020-03-09
 tag: 聊聊
-cover: https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png
+cover: https://files.mdnice.com/pic/739deb2e-86e5-421a-9666-c98daeae1682.jpg
 ---
 
 最近将结合开发中的实际问题写一系列文章，讲讲如何按步骤去解决编程问题
@@ -11,7 +11,7 @@ cover: https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png
 
 在开发浏览器插件过程中，我的画（图片）显示不出来了
 
-![](https://imgkr.cn-bj.ufileos.com/230ce135-3dc6-4695-918a-56c0a0451645.png)
+![](https://files.mdnice.com/pic/c3066d5c-8737-4676-81a4-e8b68e17f53c.jpg)
 
 ## 2、思考
 
@@ -25,16 +25,16 @@ cover: https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png
 1、查看代码，并访问图片链接，发现没有问题
 
 ```html
-<img src="https://imgkr.cn-bj.ufileos.com/43d5f3b4-e0c0-41ce-8b4f-409872b614c1.png" />
+<img src="https://files.mdnice.com/pic/b90b1454-ac1d-4dba-b625-a7accc2bbd70.jpg" />
 ```
 
 还是这么的可爱
 
-<img src="https://imgkr.cn-bj.ufileos.com/43d5f3b4-e0c0-41ce-8b4f-409872b614c1.png" />
+<img src="https://files.mdnice.com/pic/b90b1454-ac1d-4dba-b625-a7accc2bbd70.jpg" />
 
 2、查看控制台日志，发现报错
 
-> Refused to load the image 'https://imgkr.cn-bj.ufileos.com/43d5f3b4-e0c0-41ce-8b4f-409872b614c1.png' because it violates the following **Content Security Policy directive: "img-src 'self' data:**".
+> Refused to load the image 'https://files.mdnice.com/pic/b90b1454-ac1d-4dba-b625-a7accc2bbd70.jpg' because it violates the following **Content Security Policy directive: "img-src 'self' data:**".
 
 仔细阅读后提取关键字，翻译报错
 
@@ -48,13 +48,13 @@ cover: https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png
 
 CSP 的实质就是白名单策略，预先设定好哪些资源能被加载执行而哪些不能，为了防止跨域脚本攻击而制定。
 
-![](https://imgkr.cn-bj.ufileos.com/39ebc3e0-af8d-4e6e-a796-b9750fc0add0.png)
+![](https://files.mdnice.com/pic/739deb2e-86e5-421a-9666-c98daeae1682.jpg)
 
 ### 怎么用 CSP
 
 两种方法可以启用 CSP。一种是通过 HTTP 头信息的 Content-Security-Policy 的字段。
 
-![](https://imgkr.cn-bj.ufileos.com/8d8b8854-be54-4e73-b1c4-8f957aa6fb62.png)
+![](https://files.mdnice.com/pic/712a52b4-7793-4e88-9db1-22691cfe102e.jpg)
 
 另一种是通过网页的<meta>标签。
 
@@ -130,7 +130,7 @@ img-src https://imgkr.cn-bj.ufileos.com/ 'self' data
 
 可爱的头像出来了！
 
-![](https://imgkr.cn-bj.ufileos.com/822a9e78-a36d-401b-bb10-04c1d8a07802.png)
+![](https://files.mdnice.com/pic/6f9a24df-bd7e-451e-a9c7-5be542492908.jpg)
 
 ## 尾巴
 
@@ -140,4 +140,4 @@ img-src https://imgkr.cn-bj.ufileos.com/ 'self' data
 
 <span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://files.mdnice.com/pic/ac7f25b4-eae2-4ffc-9317-04d60f3dbdde.jpg)

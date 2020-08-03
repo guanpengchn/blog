@@ -53,9 +53,9 @@ $ git reset [id] // 回溯历史版本
 
 比如下图中 testgit 目录就是工作区，其中会有一个隐藏的`.git`目录，这个就是真正的版本库
 
-![](https://imgkr.cn-bj.ufileos.com/89d13697-95bf-4388-9b93-9804d41fb263.png =50%x)
+![](https://files.mdnice.com/pic/948ae737-05e7-48a1-ba29-34e0f8ab9642.png)
 
-![](https://imgkr.cn-bj.ufileos.com/5fe6080c-1f6c-4fa1-ba2d-c3b9d613d616.png)
+![](https://files.mdnice.com/pic/a5b909d4-e42c-450b-8f66-683fe662ba72.png)
 
 `git init` 就是将版本库初始化出来，把当前目录变成一个 git 仓库，当前目录下就会多出一个`.git`目录，用于存放上图中的关系信息
 
@@ -92,13 +92,13 @@ $ git reset [id]
 
 ![](https://imgkr.cn-bj.ufileos.com/b862bc9f-7e6c-44b8-a92b-a1eb43349fd2.gif)
 
-![](https://imgkr.cn-bj.ufileos.com/9157925d-ec7d-47e3-804b-e8907ec23a5c.png)
+![](https://files.mdnice.com/pic/6a81f64b-a781-4cce-855a-b83a8032c1c7.png)
 
 ### Git 本地指令——分支
 
 老板：我觉得吧，1 个文案太少不够用，你还是写 2 个策划文案吧，到时候我挑一下
 
-![](https://imgkr.cn-bj.ufileos.com/763a9cd2-3a1d-4352-90f7-fa69c2f17859.png)
+![](https://files.mdnice.com/pic/408db4db-e1b2-4823-88bf-0ca8ea19120f.png)
 
 得到新的工作内容后，画手我灵机一动，翻出了 Git 本地分支指令，如下：
 
