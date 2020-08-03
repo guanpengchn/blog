@@ -2,7 +2,7 @@
 title: NBA球星转会与球市的关系
 date: 2018-12-23
 tag: 文章
-cover: https://imgkr.cn-bj.ufileos.com/9cd32c8f-b0e0-4b42-80e3-393d4efc2467.png
+cover: https://files.mdnice.com/pic/7d3d942b-d074-4301-ba07-52f3e5fc66b5.png
 ---
 
 NBA中，球星的换队签约和交易流言是很多球迷关注的重点之一，夺冠概率、工资、队友关系等因素是球迷猜测的主要参考。但往往忽视了对于球星选择最重要的因素之一，球市。
