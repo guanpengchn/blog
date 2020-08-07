@@ -30,7 +30,7 @@
     "gitalk": "^1.5.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
