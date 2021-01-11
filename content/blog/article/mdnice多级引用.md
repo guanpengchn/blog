@@ -40,7 +40,7 @@ mdnice 虽然排版很整齐，但是这种特定的块设计也做不到呀~~
 >
 > [Markdown Nice最全功能介绍](https://mp.weixin.qq.com/s/lM808MxUu6tp8zU8SBu3sg)
 >
-> ![这里写图片描述](https://my-wechat.mdnice.com/wechat.jpg)
+> ![这里写图片描述](https://files.mdnice.com/wechat.jpg)
 ```
 
 效果如下：
@@ -51,7 +51,7 @@ mdnice 虽然排版很整齐，但是这种特定的块设计也做不到呀~~
 >
 > [Markdown Nice 最全功能介绍](https://mp.weixin.qq.com/s/lM808MxUu6tp8zU8SBu3sg)
 >
-> ![这里写图片描述](https://my-wechat.mdnice.com/wechat.jpg)
+> ![这里写图片描述](https://files.mdnice.com/wechat.jpg)
 
 ### 2.2 二级引用
 

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `编程如画`,
-    author: `灵魂画手`,
+    author: `灵魂画手大鹏`,
     qrcode: `https://gitee.com/guanpengchn/picture/raw/master/2020-9-11/1599805100027-image.png`,
-    description: `不装了，摊牌了，我是全栈`,
+    description: `编程如画-画手大鹏的博客`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       github: `https://github.com/guanpengchn`,
