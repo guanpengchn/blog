@@ -1,8 +1,8 @@
-- 解析文章首发于微信公众号「[编程如画](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)」和博客，公众号包括以下内容：
+- 解析文章首发于微信公众号「[编程如画](https://gitee.com/guanpengchn/picture/raw/master/2020-9-11/1599805100027-image.png)」和博客，公众号包括以下内容：
   - Java 面试题每日打卡，关注后**回复「Java」入群**，可在 Issue 中查看历史
   - 力扣精选题解画解算法，每天一题共同学习，关注后**回复「算法」入群**，目前共有 6 个群！
 
-<img width="500px" src="https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg" />
+<img width="500px" src="https://gitee.com/guanpengchn/picture/raw/master/2020-9-11/1599805100027-image.png" />
 
 ## Java 面试天天一道题
 

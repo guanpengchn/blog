@@ -181,5 +181,5 @@ PPT 讲完之后，面试官还试用了下我做的 `mdnice` 等开源工具，
 
 **<center>来个直击灵魂的三连吧</center>**
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://gitee.com/guanpengchn/picture/raw/master/2020-9-11/1599805100027-image.png)
 

@@ -71,4 +71,4 @@ cover: https://imgkr.cn-bj.ufileos.com/421c1430-0fe7-41fe-ab10-7c2763c91f9d.png
 <span style="display:block;text-align:center;">上述书籍后台回复「<strong>电子书</strong>」下载</span>
 <span style="display:block;text-align:center;">觉得推荐很棒，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
 
-![](https://imgkr.cn-bj.ufileos.com/c3690018-4a92-4766-ac7e-ac54dd54c093.jpg)
+![](https://gitee.com/guanpengchn/picture/raw/master/2020-9-11/1599805100027-image.png)
